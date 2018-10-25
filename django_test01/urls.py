@@ -21,4 +21,5 @@ from django_test01 import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'goods/',views.good_views),
+    url(r'^login/',views.login_view),
 ]
